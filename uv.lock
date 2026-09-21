@@ -3,6 +3,33 @@ revision = 3
 requires-python = ">=3.14"
 
 [[package]]
+name = "a-common-sense-guide-to-ai-engineering"
+version = "0.1.0"
+source = { virtual = "." }
+dependencies = [
+    { name = "beautifulsoup4" },
+    { name = "faker" },
+    { name = "openai" },
+    { name = "pinecone" },
+    { name = "pinecone-client" },
+    { name = "pydantic" },
+    { name = "python-dotenv" },
+    { name = "requests" },
+]
+
+[package.metadata]
+requires-dist = [
+    { name = "beautifulsoup4", specifier = ">=4.13.2" },
+    { name = "faker", specifier = ">=37.12.0" },
+    { name = "openai", specifier = ">=3.16.2" },
+    { name = "pinecone", specifier = ">=6.0.0" },
+    { name = "pinecone-client", specifier = ">=6.0.0" },
+    { name = "pydantic", specifier = ">=2.13.5" },
+    { name = "python-dotenv", specifier = ">=1.2.1" },
+    { name = "requests", specifier = ">=2.32.3" },
+]
+
+[[package]]
 name = "annotated-types"
 version = "0.8.0"
 source = { registry = "https://pypi.org/simple" }
@@ -333,33 +360,6 @@ wheels = [
     { url = "https://files.pythonhosted.org/packages/21/e3/4b1a43501fb9ed17b01d137e380cb0e8fdcb39a254ce31aa2ab95bc861ac/jiter-0.17.0-cp315-cp315t-win32.whl", hash = "sha256:86d703d9faa1ffc8ae4e9de0fa007712ed2171b5c0d93811a8e2e105ac729b0d", size = 184603, upload-time = "2026-09-12T15:13:59.27Z" },
     { url = "https://files.pythonhosted.org/packages/f9/f2/b8ee0372b6ebdf1bde5cc44495d5291d17f961065f5b48f8616cc67cac2e/jiter-0.17.0-cp315-cp315t-win_amd64.whl", hash = "sha256:42b0260445251b1bc520a63baa94a32d88e0f931fba234f1764db7feb7c72174", size = 227936, upload-time = "2026-09-12T15:14:00.472Z" },
     { url = "https://files.pythonhosted.org/packages/a4/b4/923a1215daba959aed8355973315cb3f81f53e0d01c5b211870a27b41f45/jiter-0.17.0-cp315-cp315t-win_arm64.whl", hash = "sha256:d47687806f9c54c84ea38733507081337922beca90ce819c7d852dd485bc0f23", size = 182977, upload-time = "2026-09-12T15:14:01.799Z" },
-]
-
-[[package]]
-name = "jwpaieng-code"
-version = "0.1.0"
-source = { virtual = "." }
-dependencies = [
-    { name = "beautifulsoup4" },
-    { name = "faker" },
-    { name = "openai" },
-    { name = "pinecone" },
-    { name = "pinecone-client" },
-    { name = "pydantic" },
-    { name = "python-dotenv" },
-    { name = "requests" },
-]
-
-[package.metadata]
-requires-dist = [
-    { name = "beautifulsoup4", specifier = ">=4.13.2" },
-    { name = "faker", specifier = ">=37.12.0" },
-    { name = "openai", specifier = ">=3.16.2" },
-    { name = "pinecone", specifier = ">=6.0.0" },
-    { name = "pinecone-client", specifier = ">=6.0.0" },
-    { name = "pydantic", specifier = ">=2.13.5" },
-    { name = "python-dotenv", specifier = ">=1.2.1" },
-    { name = "requests", specifier = ">=2.32.3" },
 ]
 
 [[package]]
