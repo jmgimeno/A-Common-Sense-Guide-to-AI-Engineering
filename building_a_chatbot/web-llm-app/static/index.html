@@ -1,0 +1,40 @@
+<!--
+ ! Excerpted from "A Common-Sense Guide to AI Engineering",
+ ! published by The Pragmatic Bookshelf.
+ ! Copyrights apply to this code. It may not be used to create training material,
+ ! courses, books, articles, and the like. Contact us if you are in doubt.
+ ! We make no guarantees that this code is fit for any purpose.
+ ! Visit https://pragprog.com/titles/jwpaieng for more book information.
+-->
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Web Chatbot</title>
+    <link rel="stylesheet" href="/static/style.css" />
+  </head>
+  <body>
+    <main class="chat-app">
+      <header class="chat-header">
+        <h1>Web Chatbot</h1>
+        <button id="new-chat-button" type="button">New Chat</button>
+      </header>
+
+      <section id="chat-messages" class="chat-messages" aria-live="polite"></section>
+
+      <form id="chat-form" class="chat-form">
+        <input
+          id="message-input"
+          type="text"
+          placeholder="Type a message..."
+          autocomplete="off"
+          required
+        />
+        <button id="send-button" type="submit">Send</button>
+      </form>
+    </main>
+
+    <script src="/static/app.js"></script>
+  </body>
+</html>

@@ -1,0 +1,100 @@
+"User: my email won't sync\nAssistant: Which GROSS product are you referring to?",PASS
+"User: my email won't sync\nAssistant: Try checking your IMAP settings in Rumblechirp.",FAIL
+"User: Rumblechirp won't sync my inbox\nAssistant: Make sure your IMAP credentials are correct.",PASS
+"User: the drawing tool won't export\nAssistant: Which GROSS app are you using?",PASS
+"User: the drawing tool won't export\nAssistant: Try exporting again as SVG.",FAIL
+"User: GuineaPigment won't export SVGs\nAssistant: Check that your document has valid paths.",PASS
+"User: the CMS is down\nAssistant: Restart the Verbiage++ service.",FAIL
+"User: the CMS is down\nAssistant: Which product are you talking about?",PASS
+"User: it keeps crashing on startup\nAssistant: Can you tell me which GROSS product this is?",PASS
+"User: it keeps crashing on startup\nAssistant: This happens when the cache is corrupted.",FAIL
+"User: Verbiage keeps crashing on startup\nAssistant: Try clearing the cache directory.",PASS
+"User: the browser won't load pages\nAssistant: Are you using Flamehamster or another GROSS app?",PASS
+"User: the browser won't load pages\nAssistant: Reset your browser settings.",FAIL
+"User: Flamehamster won't load pages\nAssistant: Resetting Flamehamster settings should fix this.",PASS
+"User: the EMR system is slow\nAssistant: EMRgency performance issues are often database related.",FAIL
+"User: the EMR system is slow\nAssistant: Which GROSS product is slow?",PASS
+"User: how do I install it?\nAssistant: Which GROSS software do you want to install?",PASS
+"User: how do I install it?\nAssistant: Download it from the website and run the installer.",FAIL
+"User: how do I install the browser?\nAssistant: Download Flamehamster from the GROSS site.",FAIL
+"User: how do I install your email client?\nAssistant: Download Rumblechirp from the website.",FAIL
+"User: my files disappeared\nAssistant: Which GROSS product are you using?",PASS
+"User: my files disappeared\nAssistant: Check your recent files panel.",FAIL
+"User: my SVG files disappeared in GuineaPigment\nAssistant: Check the autosave folder.",PASS
+"User: the system logged me out\nAssistant: Which product logged you out?",PASS
+"User: the system logged me out\nAssistant: Try logging back in.",FAIL
+"User: EMRgency logged me out\nAssistant: Session timeouts are common after inactivity.",PASS
+"User: I can't send messages\nAssistant: Which GROSS app is this?",PASS
+"User: I can't send messages\nAssistant: Check your SMTP settings.",FAIL
+"User: how do I update it?\nAssistant: Which GROSS product do you want to update?",PASS
+"User: how do I update it?\nAssistant: Use the built-in updater.",FAIL
+"User: how do I update Verbiage?\nAssistant: Use the Verbiage++ updater.",PASS
+"User: my CMS is throwing errors\nAssistant: Verbiage++ errors are often plugin-related.",FAIL
+"User: my CMS is throwing errors\nAssistant: Which product is this?",PASS
+"User: the EMR won't load patient data\nAssistant: Check the database connection in EMRgency.",FAIL
+"User: the EMR won't load patient data\nAssistant: Which GROSS product is this?",PASS
+"User: my browser crashes when opening tabs\nAssistant: Which browser are you using?",PASS
+"User: my browser crashes when opening tabs\nAssistant: Disable extensions.",FAIL
+"User: emails are missing in Rumblechirp\nAssistant: Check your trash and archive folders.",PASS
+"User: the design tool is slow\nAssistant: Which GROSS product is the design tool?",PASS
+"User: the design tool is slow\nAssistant: Close other applications.",FAIL
+"User: GuineaPigment is slow\nAssistant: Complex SVGs can reduce performance.",PASS
+"User: content won't save\nAssistant: Is this in Verbiage++?",PASS
+"User: content won't save\nAssistant: Try saving again.",FAIL
+"User: content won't save in Verbiage++\nAssistant: Check database permissions.",PASS
+"User: records won't open\nAssistant: Which GROSS system is this?",PASS
+"User: records won't open\nAssistant: Restart the server.",FAIL
+"User: records won't open in EMRgency\nAssistant: Restart the EMR service.",PASS
+"User: nothing works after the update\nAssistant: Which GROSS product did you update?",PASS
+"User: nothing works after the update\nAssistant: Updates sometimes break compatibility.",FAIL
+"User: nothing works after the update in the browser\nAssistant: Flamehamster updates can affect extensions.",FAIL
+"User: my browser lost all bookmarks\nAssistant: Which browser are you using?",PASS
+"User: my browser lost all bookmarks\nAssistant: Bookmarks are stored in your profile folder.",FAIL
+"User: my browser lost all bookmarks in Flamehamster\nAssistant: Restore them from your backup.",PASS
+"User: the hamster app is broken\nAssistant: Do you mean Flamehamster?",PASS
+"User: the hamster app is broken\nAssistant: Clear your cache.",FAIL
+"User: Flamehamster is broken after install\nAssistant: Try reinstalling Flamehamster.",PASS
+"User: can't draw anything anymore\nAssistant: Which GROSS product are you referring to?",PASS
+"User: can't draw anything anymore\nAssistant: Make sure your canvas isn't locked.",FAIL
+"User: can't draw anything in GuineaPigment\nAssistant: Check if the layer is locked.",PASS
+"User: the medical system froze\nAssistant: Are you referring to EMRgency?",PASS
+"User: the medical system froze\nAssistant: Restart the application.",FAIL
+"User: EMRgency froze during charting\nAssistant: This can happen during autosave.",PASS
+"User: can't publish anything\nAssistant: Publishing requires permissions.",FAIL
+"User: can't publish anything in Verbiage\nAssistant: Publishing requires permissions.",PASS
+"User: patient data missing\nAssistant: Are you referring to EMRgency?",PASS
+"User: patient data missing\nAssistant: Data may be archived.",FAIL
+"User: patient data missing in EMRgency\nAssistant: Data may be archived.",PASS
+"User: the mail app logged me out\nAssistant: Which mail app do you mean?",PASS
+"User: the mail app logged me out\nAssistant: Session timeouts are normal.",FAIL
+"User: Rumblechirp logged me out\nAssistant: Session timeouts are normal.",PASS
+"User: the SVG tool is unusable\nAssistant: Can you clarify which GROSS product?",PASS
+"User: the SVG tool is unusable\nAssistant: Large files can cause lag.",FAIL
+"User: GuineaPigment is unusable with large SVGs\nAssistant: Large files can cause lag.",PASS
+"User: content vanished overnight\nAssistant: Which GROSS product lost content?",PASS
+"User: content vanished overnight\nAssistant: Check your backups.",FAIL
+"User: content vanished overnight in Verbiage++\nAssistant: Check your backups.",PASS
+"User: the browser keeps redirecting me\nAssistant: Which browser are you using?",PASS
+"User: the browser keeps redirecting me\nAssistant: Disable suspicious extensions.",FAIL
+"User: Flamehamster keeps redirecting me\nAssistant: Disable suspicious extensions.",PASS
+"User: can't open records anymore\nAssistant: Which system are you using?",PASS
+"User: can't open records anymore\nAssistant: This is usually a permission issue.",FAIL
+"User: can't open records in EMRgency\nAssistant: This is usually a permission issue.",PASS
+"User: my CMS dashboard is blank\nAssistant: Are you using Verbiage++?",PASS
+"User: my CMS dashboard is blank\nAssistant: Clear your browser cache.",FAIL
+"User: my Verbiage++ dashboard is blank\nAssistant: Clear your browser cache.",PASS
+"User: app crashes when clicking send\nAssistant: Which GROSS app crashes when sending?",PASS
+"User: app crashes when clicking send\nAssistant: This is often caused by attachments.",FAIL
+"User: Rumblechirp crashes when clicking send\nAssistant: This is often caused by attachments.",PASS
+"User: design tool corrupted my file\nAssistant: Which design tool do you mean?",PASS
+"User: design tool corrupted my file\nAssistant: The file may be unrecoverable.",FAIL
+"User: GuineaPigment corrupted my SVG file\nAssistant: Try restoring from autosave.",PASS
+"User: nothing loads after login\nAssistant: Which GROSS product fails after login?",PASS
+"User: nothing loads after login\nAssistant: Try clearing cookies.",FAIL
+"User: Flamehamster loads nothing after login\nAssistant: Try clearing cookies.",PASS
+"User: system froze during save\nAssistant: Which system froze?",PASS
+"User: system froze during save\nAssistant: Forced shutdown can cause corruption.",FAIL
+"User: EMRgency froze during save\nAssistant: Forced shutdown can cause corruption.",PASS
+"User: pages reverted to old versions\nAssistant: Are you referring to Verbiage++?",PASS
+"User: pages reverted to old versions\nAssistant: Versioning may have rolled back.",FAIL
+"User: pages reverted in Verbiage++\nAssistant: Versioning may have rolled back.",PASS
